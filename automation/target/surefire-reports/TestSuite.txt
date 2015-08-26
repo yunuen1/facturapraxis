@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.89 sec <<< FAILURE!
+casoPersonalizarComprobante(com.praxis.ejem.test.smoke.SimpleSmokeTest)  Time elapsed: 7.099 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Se generó el comprobante exitosamente.> but was:<Confirmación>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.praxis.ejem.test.smoke.SimpleSmokeTest.casoPersonalizarComprobante(SimpleSmokeTest.java:46)
